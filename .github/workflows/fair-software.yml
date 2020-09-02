@@ -11,17 +11,23 @@ jobs:
         name: Check out a copy of your repository
 
       - uses: fair-software/badge@master
-        name: (1/5) Use a publicly accessible repository with version control
 
-      - uses: fair-software/badge@master
-        name: (2/5) Add a license
+      - name: (1/5) Use a publicly accessible repository with version control
+        shell: bash -l {0}
+        run: echo "repository"
 
-      - uses: fair-software/badge@master
-        name: (3/5) Register your code in a community registry
+      - name: (2/5) Add a license
+        shell: bash -l {0}
+        run: echo "license"
+
+      - name: (3/5) Register your code in a community registry
+        shell: bash -l {0}
         run: "/usr/local/bin/python3 /data/3-registry/check_registry.py"
 
-      - uses: fair-software/badge@master
-        name: (4/5) Enable citation of the software
+      - name: (4/5) Enable citation of the software
+        shell: bash -l {0}
+        run: echo "citation"
 
-      - uses: fair-software/badge@master
-        name: (5/5) Use a software quality checklist
+      - name: (5/5) Use a software quality checklist
+        shell: bash -l {0}
+        run: echo "checklist"
