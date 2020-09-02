@@ -8,19 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        name: Check out a copy of the repository
+        name: Check out a copy of your repository
 
       - uses: fair-software/badge@master
-        name: Use a publicly accessible repository with version control
+        name: (1/5) Use a publicly accessible repository with version control
 
       - uses: fair-software/badge@master
-        name: Add a license
+        name: (2/5) Add a license
 
       - uses: fair-software/badge@master
-        name: Register your code in a community registry
+        name: (3/5) Register your code in a community registry
 
       - uses: fair-software/badge@master
-        name: Enable citation of the software
+        name: (4/5) Enable citation of the software
 
       - uses: fair-software/badge@master
-        name: Use a software quality checklist
+        name: (5/5) Use a software quality checklist
