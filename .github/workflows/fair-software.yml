@@ -21,8 +21,7 @@ jobs:
         run: echo "license"
 
       - name: (3/5) Register your code in a community registry
-        shell: bash -l {0}
-        run: "/usr/local/bin/python3 /data/3-registry/check_registry.py"
+        run: which python
 
       - name: (4/5) Enable citation of the software
         shell: bash -l {0}
