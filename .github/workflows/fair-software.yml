@@ -12,17 +12,25 @@ jobs:
 
       - uses: fair-software/badge@master
         name: (1/5) Use a publicly accessible repository with version control
+        with:
+          SWITCH: "repository"
 
       - uses: fair-software/badge@master
         name: (2/5) Add a license
+        with:
+          SWITCH: "license"
 
       - uses: fair-software/badge@master
         name: (3/5) Register your code in a community registry
-        with: 
+        with:
           SWITCH: "registry"
 
       - uses: fair-software/badge@master
         name: (4/5) Enable citation of the software
+        with:
+          SWITCH: "citation"
 
       - uses: fair-software/badge@master
         name: (5/5) Use a software quality checklist
+        with:
+          SWITCH: "checklist"
