@@ -1,0 +1,26 @@
+name: fair-software
+
+on: push
+
+jobs:
+  verify:
+    name: "fair-software"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Check out a copy of the repository
+
+      - uses: fair-software/badge@master
+        name: Use a publicly accessible repository with version control
+
+      - uses: fair-software/badge@master
+        name: Add a license
+
+      - uses: fair-software/badge@master
+        name: Register your code in a community registry
+
+      - uses: fair-software/badge@master
+        name: Enable citation of the software
+
+      - uses: fair-software/badge@master
+        name: Use a software quality checklist
