@@ -9,11 +9,21 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         name: Check out a copy of your repository
+        comment: Maybe we do not need to check out the repo?
 
-      - uses: fair-software/badge@master
+      - name: Repository Meta
+        uses: varunsridharan/action-repository-meta@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Testing URL"
+        run: echo REPOSITORY_GITHUB_URL=$REPOSITORY_GITHUB_URL
+
+      - uses: fair-software/badge@url
         name: (1/5) Use a publicly accessible repository with version control
         with:
           SWITCH: "repository"
+          repository: $REPOSITORY_GITHUB_URL
 
       - uses: fair-software/badge@master
         name: (2/5) Add a license
@@ -35,11 +45,4 @@ jobs:
         with:
           SWITCH: "checklist"
 
-      - name: "Repository Meta"
-        uses: varunsridharan/action-repository-meta@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: "Testing URL"
-        run: echo REPOSITORY_GITHUB_URL=$REPOSITORY_GITHUB_URL	
 
