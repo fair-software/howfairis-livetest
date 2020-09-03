@@ -36,7 +36,7 @@ jobs:
           SWITCH: "checklist"
 
       - name: "Repository Meta"
-         uses: varunsridharan/action-repository-meta@master
+        uses: varunsridharan/action-repository-meta@master
 
       - name: "Testing URL"
         run: echo REPOSITORY_GITHUB_URL=$REPOSITORY_GITHUB_URL	
