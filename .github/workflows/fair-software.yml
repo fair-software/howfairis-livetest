@@ -34,3 +34,7 @@ jobs:
         name: (5/5) Use a software quality checklist
         with:
           SWITCH: "checklist"
+
+      - name: "Testing URL"
+        run: echo REPOSITORY_GITHUB_URL=$REPOSITORY_GITHUB_URL	
+
