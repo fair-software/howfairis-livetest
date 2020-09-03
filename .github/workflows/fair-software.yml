@@ -11,8 +11,7 @@ jobs:
         name: Check out a copy of your repository
         # Maybe we do not need to check out the repo?
 
-      - uses: fair-software/badge@packaging
+      - uses: fair-software/badge@url
         name: Measure compliance with fair-software.eu recommendations
         with:
-          SWITCH: "repository"
           REPOSITORY: '${{ github.repository }}'
