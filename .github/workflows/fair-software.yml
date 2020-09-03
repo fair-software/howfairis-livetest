@@ -11,4 +11,4 @@ jobs:
         name: Check out a copy of your repository
 
       - uses: fair-software/badge@packaging
-        name: howfairis
+        name: Measure compliance with fair-software.eu recommendations
