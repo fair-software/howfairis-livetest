@@ -23,7 +23,7 @@ jobs:
         name: (1/5) Use a publicly accessible repository with version control
         with:
           SWITCH: "repository"
-          REPOSITORY: ${{ env.REPOSITORY_HOMEPAGE_URL }}
+          REPOSITORY: 'xxxxx $$REPOSITORY_GITHUB_URL'
 
       - uses: fair-software/badge@master
         name: (2/5) Add a license
