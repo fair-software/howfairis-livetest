@@ -12,3 +12,5 @@ jobs:
 
       - uses: fair-software/badge@url
         name: Measure compliance with fair-software.eu recommendations
+        with:
+          REPO_URL: "https://github/com/${{ github.repository }}"
