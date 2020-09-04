@@ -10,5 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         name: Check out a copy of your repository
 
-      - uses: fair-software/badge@master
+      - uses: fair-software/badge@url
         name: Measure compliance with fair-software.eu recommendations
+        with:
+          MY_REPO_URL: "https://github/com/${{ github.repository }}"
