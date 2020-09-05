@@ -12,12 +12,12 @@ pypi badge for unrelated project:
 some more text.
 
 
-If I run [``howfairis``](https://github.com/fair-software/howfairis) on this repo, as follows:
+If I run [``howfairis``](https://github.com/fair-software/howfairis) on the current repo, as follows:
 
 ```shell
 howfairis https://github.com/fair-software/badge-test
 ```
 
-it says I the badge below reflects the compliance of this repo with the recommendations on fair-software.eu:
+it says the badge below reflects the compliance of this repo with the 5 recommendations on fair-software.eu:
 
 ![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F%20%20%E2%97%8F-green)
