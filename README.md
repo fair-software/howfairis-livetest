@@ -9,4 +9,7 @@ This here Zenodo badge is from an unrelated project [![DOI](https://zenodo.org/b
 Checklist badge for testing (unrelated project):
 [![matchms checklist](https://bestpractices.coreinfrastructure.org/projects/3792/badge)](https://bestpractices.coreinfrastructure.org/projects/3792)
 
+pypi badge for unrelated project:
+[![cffconvert pypi badge](https://img.shields.io/pypi/v/cffconvert.svg?colorB=blue)](https://pypi.python.org/pypi/cffconvert/)
+
 some more text.
