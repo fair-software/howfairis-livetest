@@ -9,5 +9,7 @@ jobs:
     steps:
       - uses: fair-software/badge@master
         name: Measure compliance with fair-software.eu recommendations
+        env:
+          TERM: xterm-256color
         with:
           MY_REPO_URL: "https://github.com/${{ github.repository }}"
