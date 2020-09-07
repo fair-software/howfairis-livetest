@@ -10,6 +10,6 @@ jobs:
       - uses: fair-software/badge@master
         name: Measure compliance with fair-software.eu recommendations
         env:
-          TERM: dumb
+          PYCHARM_HOSTED: "Not really a PyCharm TTY, trying to trick colorama into displaying colored output" 
         with:
           MY_REPO_URL: "https://github.com/${{ github.repository }}"
