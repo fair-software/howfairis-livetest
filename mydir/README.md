@@ -2,7 +2,7 @@ Not a real readme, only for testing.
 
 If I have this badge in my README.md:
 
-![tag](https://img.shields.io/cran/l/GGIR)
+[![](https://cranlogs.r-pkg.org/badges/GGIR)](https://cran.r-project.org/package=GGIR)
 
 That should give me the following badge if I run [``howfairis``](https://pypi.org/project/howfairis/) on this repository using the ``-p`` flag to point it to this directory:
 
