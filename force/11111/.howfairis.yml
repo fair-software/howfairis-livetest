@@ -1,0 +1,6 @@
+force:
+  repository: true
+  license: true
+  registry: true
+  citation: true
+  checklist: true

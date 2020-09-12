@@ -1,0 +1,6 @@
+force:
+  repository: false
+  license: false
+  registry: true
+  citation: false
+  checklist: false
