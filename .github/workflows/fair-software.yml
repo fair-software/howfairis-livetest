@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: fair-software/badge@master
-        name: Show howfairis version
+      - name: Show howfairis version
         with:
           MY_REPO_URL: "--version"
-        name: Measure compliance with fair-software.eu recommendations
+      - name: Measure compliance with fair-software.eu recommendations
         env:
           PYCHARM_HOSTED: "Trick colorama into displaying colored output"
         with:
