@@ -9,9 +9,8 @@ jobs:
     steps:
       - uses: fair-software/badge@master
         name: Show howfairis version
-        args:
-          - howfairis
-          - --version
+        with:
+          MY_REPO_URL: "--version"
         name: Measure compliance with fair-software.eu recommendations
         env:
           PYCHARM_HOSTED: "Trick colorama into displaying colored output"
