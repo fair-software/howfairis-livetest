@@ -1,3 +1,5 @@
+This README has a sonarcloud badge that's hidden with HTML comment tags
+
 <!-- 
 a sonarcloud badge between HTML comments to throw off howfairis 
 
