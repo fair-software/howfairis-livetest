@@ -1,4 +1,4 @@
-This README has a sonarcloud badge that's hidden with HTML comment tags
+This README has a sonarcloud badge that's hidden with HTML comment tags, and its configuration file [``.howfairis.yml``](./.howfairis.yml) is set to include comments.
 
 <!-- 
 a sonarcloud badge between HTML comments to throw off howfairis 
