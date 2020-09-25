@@ -1,6 +1,5 @@
-force:
-  repository: true
-  license: true
-  registry: true
-  citation: true
-  checklist: false
+force_repository: true
+force_license: true
+force_registry: true
+force_citation: true
+force_checklist: false
