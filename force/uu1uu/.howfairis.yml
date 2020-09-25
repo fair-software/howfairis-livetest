@@ -1,3 +1,2 @@
-force:
-  registry: true  # It is good practice to add an explanation
-                  # of why you chose to set the state manually
+force_registry: true  # It is good practice to add an explanation
+                      # of why you chose to set the state manually
