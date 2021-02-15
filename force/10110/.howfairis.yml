@@ -1,5 +1,3 @@
-force_repository: true
-force_license: false
-force_registry: true
-force_citation: true
-force_checklist: false
+skip_repository_checks_reason: I want to skip repository checks
+skip_registry_checks_reason: I want to skip registry checks
+skip_citation_checks_reason: I want to skip citation checks

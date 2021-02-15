@@ -1,2 +1,1 @@
-force_registry: true  # It is good practice to add an explanation
-                      # of why you chose to set the state manually
+skip_registry_checks_reason: I want to skip registry checks

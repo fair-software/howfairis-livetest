@@ -1,5 +1,1 @@
-force_repository: false
-force_license: false
-force_registry: true
-force_citation: false
-force_checklist: false
+skip_registry_checks_reason: I want to skip registry checks
