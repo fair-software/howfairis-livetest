@@ -1,4 +1,4 @@
-# badge-test
+# howfairis-livetest
 Tests for the fair-software badge
 
 This here Zenodo badge is from an unrelated project [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3904265.svg)](https://doi.org/10.5281/zenodo.3904265).
