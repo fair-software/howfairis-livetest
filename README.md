@@ -15,7 +15,7 @@ some more text.
 If I run [``howfairis``](https://github.com/fair-software/howfairis) on the current repo, as follows:
 
 ```shell
-howfairis https://github.com/fair-software/badge-test
+howfairis https://github.com/fair-software/howfairis-livetest
 ```
 
 it says the badge below reflects the compliance of this repo with the 5 recommendations on fair-software.eu:
